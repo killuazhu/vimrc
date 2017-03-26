@@ -19,12 +19,21 @@ set relativenumber
 " zR  # least fold
 
 """ TODO figure out minimap
-""" TODO figure out ag, ack
 
 "-----------------------
 "   Plugin
 "-----------------------
 map <F2> :NERDTreeToggle<CR>
+
+" Automatically displays all buffers when there's only one tab open.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => lightline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep= ' '
+let g:airline#extensions#tabline#left_alt_sep= '|'
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "-----------------------
 "   Theme
@@ -40,5 +49,5 @@ colorscheme PaperColor
 " => JavaScript section
 """""""""""""""""""""""""""""""
 " au FileType yaml call JavaScriptFold()
-au FileType yaml set shiftwidth=2
+au BufNewFile,BufRead *.yaml,*.yml set shiftwidth=2
 

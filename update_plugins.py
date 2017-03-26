@@ -55,6 +55,7 @@ vim-pug https://github.com/digitaltoad/vim-pug
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 papercolor-theme https://github.com/nlknguyen/papercolor-theme
+vim-airline https://github.com/bling/vim-airline
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

@@ -47,6 +47,13 @@ let g:airline#extensions#tabline#left_alt_sep= '|'
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-terraform
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+autocmd FileType terraform setlocal commentstring=#\ %s
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-marked
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:marked_app = "Marked 2"

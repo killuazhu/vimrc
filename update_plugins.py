@@ -58,6 +58,7 @@ papercolor-theme https://github.com/nlknguyen/papercolor-theme
 vim-airline https://github.com/bling/vim-airline
 vim-marked https://github.com/itspriddle/vim-marked
 lexima.vim https://github.com/cohama/lexima.vim
+vim-terraform https://github.com/hashivim/vim-terraform
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
